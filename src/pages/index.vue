@@ -25,6 +25,7 @@ export default {
     return {
       expanded: [],
       dessertHeaders: [
+        { title: "", key: "data-table-expand" },
         {
           title: "Dessert (100g serving)",
           align: "start",
@@ -36,7 +37,6 @@ export default {
         { title: "Carbs (g)", key: "carbs" },
         { title: "Protein (g)", key: "protein" },
         { title: "Iron (%)", key: "iron" },
-        { title: "", key: "data-table-expand" },
       ],
       desserts: [
         {
